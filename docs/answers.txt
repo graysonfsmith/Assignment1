@@ -1,0 +1,20 @@
+a. using git desktop GUI, so this step was not really possible
+
+b. there have been 9 commits so far
+
+c. this file was last modified on the 27th of september, the GUI makes this clear under the history tab
+
+d. cb30d72 by irlabuser as well as 36a8e55 by the same user
+
+e. branches are quite useful for projects with several users who are all working on different features, a user can get their feature working without interfering with other sections of the project also, branches can serve as versions, an experimental version may be worked on in a separate tab and merged with a stable version when it is complete
+
+f. git status shows the working directory as well as staged commits, git log shows a history of commits
+
+g. git log Weapon.h
+
+h. git log --grep="file"
+
+i. I. inheritance is an instance of a class which inherits values and methods from a another class.
+   II. polymorphism is the ability for a class to define inherited functions in its own way.
+   III. encaptsulation is is the use of member functions to access and change the data of an object.
+
