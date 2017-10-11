@@ -28,5 +28,17 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
         return new CommonSpear();
     }
 
+    if (name.compare("axe") == 0) {
+        return new SimpleAxe();
+    }
+
+    if (name.compare("random") == 0) {
+        return new CrazyRandomSword();
+    }
+
+    if (name.compare("blade") == 0) {
+        return new VorpalBlade();
+    }
+
     throw "Invalid weapon";
 }
