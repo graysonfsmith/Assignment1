@@ -18,3 +18,9 @@ i. I. inheritance is an instance of a class which inherits values and methods fr
    II. polymorphism is the ability for a class to define inherited functions in its own way.
    III. encaptsulation is is the use of member functions to access and change the data of an object.
 
+7.
+
+the prototype uses polymorphism with the hit method defined initially within the weapon.h file, all the weapon classes inherit the hit function, but each implement a different type of hit.
+
+encapsulation is shown in the getname() function, as it is used to access information of the weapon.
+
